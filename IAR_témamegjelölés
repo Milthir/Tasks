@@ -1,0 +1,19 @@
+Telerehabilitációs szoftver
+
+Kinect - Windows sdk adatokat szolgáltat, ezekből kell kiszámolni a végtag térbeli pozícióját (plugin).
+Meg kell határozni a hajlásszöget, és a sebességet (háló az emberre).
+Adott pontokról kapcsolati mátrix.
+Valamilyen vizualizáció a kliensben, a mozgásról + számláló, esetleg zölddel bejelölés ha jó tartományba van már.
+Minden mozgás logolása (sikeres + sikertelen) statisztika szempontjából.
+Orvos írja ki a feladatokat - szerver leküldi a beteg kliensére.
+Kinect szenzor - kliens alkalmazás kiértékelés - passz a szerverre - összehasonlítás a tervezettel (training leíró nyelv) 
+
+Fejlesztés lépései:
+1. Kinect szenzor kimenő adataiból meghatározni a számunkra aktuálisan érdekes markerek térbeli elhelyezkedését
+2. Az idő függvényében meghatározni a hajlásszöget, sebességet, ismétlésszámot, ezekből egy logot készíteni megadott 
+minta alapján
+3. Kliens - szerver kommunikáció megvalósítása (oda - vissza)
+4. (Opcionális) Egy olyan tool, amivel az orvos össze tud kattingatni kezelési terveket.
+
+A cél egy olyan rendszer kifejlesztése, ami a szenzor pluginon kívül, szabványosan kapott koordináta adatokból,
+minden szenzorral működik. Csak plugint kelljen létrehozni.
