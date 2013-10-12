@@ -1,18 +1,20 @@
 Tasks
 =====
 
+Bugok:
+Nem új MDI ablak READY
+Nem pontos stopwatch READY
 Pontműveletek:
-  - Invertálás
-  - szürkítés
-  - logaritmikus transzformáció
-  - gamma transzformáció
-Hisztogram (megjelenítés: RGB összetevők, halmozott hisztogram)
-  - széthúzás
+  - Invertálás READY
+  - szürkítés READY
+  - logaritmikus transzformáció READY
+  - gamma transzformáció READY
+Hisztogram (megjelenítés: RGB összetevők READY, halmozott hisztogram)
+  - széthúzás READY
   - kontraszt széthúzás
-  - kiegyenlítés
-  - illesztés (opcionális)
+  - kiegyenlítés READY
 Binarizálás
-  - Otsu
-  - Felhasználótól küszöb bekérése
-  - P-tile
+  - Otsu READY
+  - Felhasználótól küszöb bekérése READY
+  - P-tile READY
   - iterációs
